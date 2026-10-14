@@ -1,0 +1,14 @@
+{
+  "name": "ecom-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "dev:web": "pnpm --filter @ecom/web dev",
+    "dev:mobile": "pnpm --filter @ecom/mobile start"
+  },
+  "devDependencies": { "turbo": "^2.3.3", "typescript": "^5.7.2" }
+}

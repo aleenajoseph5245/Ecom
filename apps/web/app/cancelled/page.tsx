@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function CancelledPage() { return <main className="success-page"><div className="success-card"><p className="eyebrow">CHECKOUT PAUSED</p><h1>Your bag is<br/><em>still here.</em></h1><p>Nothing has been charged. You can pick up where you left off whenever you’re ready.</p><Link className="button button-dark" href="/">Return to the collection <span>→</span></Link></div></main>; }
