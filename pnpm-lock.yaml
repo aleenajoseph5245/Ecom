@@ -75,9 +75,6 @@ importers:
       react-dom:
         specifier: ^19.0.0
         version: 19.3.0(react@19.3.0)
-      stripe:
-        specifier: ^17.5.0
-        version: 17.7.0
     devDependencies:
       '@types/node':
         specifier: ^22.10.2
